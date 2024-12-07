@@ -1,36 +1,48 @@
-以下是你的GitHub项目的README.md的修改版本：
-
-```markdown
 # Airdrop Checker
 
-## 支持的系统
-此脚本设计用于基于 Debian 或 Ubuntu 的 Linux 系统（如 Ubuntu、Debian、Mint 等）。【使用WSL的用户需要安装并配置Docker Desktop】
+## Supported Systems
 
-## 使用步骤
+This script is designed for Linux systems based on Debian or Ubuntu (such as Ubuntu, Debian, Mint, etc.).  
+**Note**: If you're using WSL (Windows Subsystem for Linux), you need to install and configure Docker Desktop.
 
-### 1️⃣ 克隆并进入项目目录
-```sh
+## Installation
+
+### 1️⃣ Clone the Project and Enter the Project Directory
+
+First, clone the repository and navigate into the project directory:
+
+```bash
 git clone https://github.com/blockchain-DAT/aridrop_checker.git && cd airdrop_checker
 ```
 
-### 2️⃣ 安装所需的系统软件包和Python库
-检测未安装的依赖并自动安装
-```sh
+### 2️⃣ Install Required System Packages and Python Libraries
+
+The script will automatically check and install any missing dependencies.
+
+Make the installation script executable and run it:
+
+```bash
 chmod +x install_dependencies.sh && ./install_dependencies.sh
 ```
 
-### 3️⃣ 运行脚本
-```sh
+This will install necessary system packages and Python libraries.
+
+### 3️⃣ Run the Script
+
+Make the script executable and run it:
+
+```bash
 chmod +x check.sh && ./check.sh
 ```
 
-## 注意事项
-- 请确保你的系统已经安装并配置好Docker Desktop（适用于WSL用户）。
-- 如果在安装过程中遇到任何问题，请查看项目的 [issues](https://github.com/blockchain-DAT/aridrop_checker/issues) 页面，或者提交一个新的issue。
+This will start the airdrop checking process.
 
-## 许可证
-此项目遵循MIT许可证。有关详细信息，请参阅 [LICENSE](LICENSE) 文件。
+## Troubleshooting
 
+- If you're using WSL, ensure that **Docker Desktop** is installed and configured properly before running the script.
+- If you encounter any issues, feel free to open an issue on GitHub or contact the maintainer.
+
+## License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 ```
-
-这样应该更清晰，并且包含了所有必要的信息。如果还有任何需要改进的地方，请告诉我！ 😊
