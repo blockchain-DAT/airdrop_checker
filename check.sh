@@ -283,13 +283,14 @@ one_click_claim() {
         echo -e "\e[1m♾️ Starting Docker Compose »»» \e[0m"
         echo
         sleep 1
-        echo -e "\e[1;31m♻️ Matching token contracts and claiming »»»\e[0m"
+        echo -e "\e[1;33m♻️ Matching token contracts and claiming »»»\e[0m"
         show_shine_bar
         echo
         show_loading_animation "🤖 Working hard...»»»" 
         echo
 
         sudo docker compose up
+        
         if [[ $? -ne 0 ]]; then
             echo
             echo "❌ Docker Compose failed to start, please check the configuration."

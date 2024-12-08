@@ -50,7 +50,7 @@
     {
         "project": "debridge",
         "symbol": "dbr",
-        "CA": "",
+        "CA": "DBRiDgJAMsM95moTzJs7M9LnkGErpbv9v6CUR1DXnUu5",
         "chain_id": null
     },
     {
@@ -63,6 +63,30 @@
         "project": "puffer",
         "symbol": "puffer",
         "CA": "0x4d1C297d39C5c1277964D0E3f8Aa901493664530",
+        "chain_id": 1
+    },
+    {
+        "project": "hyperliquid",
+        "symbol": "hype",
+        "CA": "0x0d01dc56dcaaca66ad901c959b4011ec",
+        "chain_id": null
+    },
+    {
+        "project": "usual",
+        "symbol": "usual",
+        "CA": "0xC4441c2BE5d8fA8126822B9929CA0b81Ea0DE38E",
+        "chain_id": 1
+    },
+    {
+        "project": "walletconnect",
+        "symbol": "wct",
+        "CA": "0xef4461891dfb3ac8572ccf7c794664a8dd927945",
+        "chain_id": 10
+    },
+    {
+        "project": "movement",
+        "symbol": "",
+        "CA": "",
         "chain_id": 1
     },
     {

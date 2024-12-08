@@ -2,7 +2,7 @@
 {
   "id": "eigenlayer",
   "points": "-",
-  "tokens": "0.5940941539108269",
+  "tokens": "156.5725760565907",
   "isClaimed": "null"
 }
 ,
@@ -15,15 +15,15 @@
 ,
 {
   "id": "scroll",
-  "points": "0.09775083512067795",
+  "points": "0",
   "tokens": "0",
   "isClaimed": "null"
 }
 ,
 {
   "id": "swell",
-  "points": "0",
-  "tokens": "0",
+  "points": "2616.8306",
+  "tokens": "2196.89751166597",
   "isClaimed": "null"
 }
 ,
@@ -50,8 +50,8 @@
 ,
 {
   "id": "debridge",
-  "points": "5289.453652302503",
-  "tokens": "1046.138931",
+  "points": "0",
+  "tokens": "0",
   "isClaimed": "null"
 }
 ,
@@ -65,7 +65,7 @@
 {
   "id": "mode",
   "points": "-1",
-  "tokens": "187.26864270000002",
+  "tokens": "0",
   "isClaimed": "null"
 }
 ,
@@ -85,8 +85,8 @@
 ,
 {
   "id": "zircuitS1S2",
-  "points": "0",
-  "tokens": "115.2427638304284",
+  "points": "0.06617826592115017",
+  "tokens": "3140.2249235949535",
   "isClaimed": "null"
 }
 ,
@@ -100,7 +100,7 @@
 {
   "id": "lava Network",
   "points": "0",
-  "tokens": "1433.35",
+  "tokens": "14186.89",
   "isClaimed": "null"
 }
 ]

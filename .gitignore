@@ -1,2 +1,3 @@
 data/generator.py
 data/balances.json
+.env
