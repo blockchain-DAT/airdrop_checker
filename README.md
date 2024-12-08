@@ -12,7 +12,7 @@ This script is designed for Linux systems based on Debian or Ubuntu (such as Ubu
 First, clone the repository and navigate into the project directory:
 
 ```bash
-git clone https://github.com/blockchain-DAT/aridrop_checker.git && cd airdrop_checker
+git clone https://github.com/blockchain-DAT/airdrop_checker.git && cd airdrop_checker
 ```
 
 ### 2️⃣ Install Required System Packages and Python Libraries
