@@ -302,7 +302,7 @@ one_click_claim() {
         fi
 
         echo
-        echo -e "\e[1;31m🈲 Claiming is currently unavailable!\e[0m"
+        echo -e "\e[1;31m🈲 Claiming is currently unavailable ‼️\e[0m"
         echo "=================================================="
         sleep 1
         break
