@@ -61,10 +61,10 @@ print_airdrop_summary() {
             tokens=$(echo "$project" | jq -r '.tokens // "-"')
             isClaimed=$(echo "$project" | jq -r '.isClaimed // "null"')
 
-            echo "  Project: $project_id"
-            echo "    Points: $points"
-            echo "    Token Amount: $tokens"
-            echo "    Claimed: $isClaimed"
+            echo -e "\e[1m  Project:\e[0m \e[1;32m$project_id\e[0m"
+            echo -e "\e[1m    Points:$points\e[0m"
+            echo -e "\e[1m    Token Amount:\e[0m \e[1;35m$tokens\e[0m"
+            echo -e "\e[1m    Claimed:$isClaimed\e[0m"
             echo
 
             jq -n \
@@ -82,10 +82,10 @@ print_airdrop_summary() {
 
     amount=$(get_tokens "$wallet_address")
     echo
-    echo "  Project: $project_$id_"
-    echo "    Points: 0"
-    echo "    Token Amount: $amount"
-    echo "    Claimed: null"
+    echo -e "\e[1m  Project:\e[0m \e[1;32m$project_$id_\e[0m"
+    echo -e "\e[1m    Points:0\e[0m"
+    echo -e "\e[1m    Token Amount:\e[0m \e[1;35m$amount\e[0m"
+    echo -e "\e[1m    Claimed:null\e[0m"
     echo "=================================================="
 
     jq -n \
@@ -97,10 +97,10 @@ print_airdrop_summary() {
 
     echo "]" >> "$temp_file"
 
-    echo "Total number of projects: $project_count"
+    echo -e "🧮 Total number of projects: \e[1;35m$project_count\e[0m"
     echo
     sleep 1
-    echo "📁 Airdrop summary generated: $temp_file"
+    echo -e "\e[1m📁 Airdrop summary generated:\e[0m \e[1;34m$temp_file\e[0m"
     echo "=================================================="
     echo -e "\e[1;32m✅ Airdrop summary generation completed! 🎉\e[0m"
 }
