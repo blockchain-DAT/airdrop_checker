@@ -2,7 +2,11 @@
 {
   "id": "eigenlayer",
   "points": "-",
+<<<<<<< HEAD
   "tokens": "0.25307",
+=======
+  "tokens": "156.5725760565907",
+>>>>>>> 4ef94adbf47a0eda286ddf050c8dc6dc16f92200
   "isClaimed": "null"
 }
 ,
@@ -15,22 +19,35 @@
 ,
 {
   "id": "scroll",
+<<<<<<< HEAD
   "points": "82.65113830566406",
+=======
+  "points": "0",
+>>>>>>> 4ef94adbf47a0eda286ddf050c8dc6dc16f92200
   "tokens": "0",
   "isClaimed": "null"
 }
 ,
 {
   "id": "swell",
+<<<<<<< HEAD
   "points": "686.8572",
   "tokens": "787.6345974761247",
+=======
+  "points": "2616.8306",
+  "tokens": "2196.89751166597",
+>>>>>>> 4ef94adbf47a0eda286ddf050c8dc6dc16f92200
   "isClaimed": "null"
 }
 ,
 {
   "id": "puffer",
   "points": "-1",
+<<<<<<< HEAD
   "tokens": "80.79194016",
+=======
+  "tokens": "0",
+>>>>>>> 4ef94adbf47a0eda286ddf050c8dc6dc16f92200
   "isClaimed": "null"
 }
 ,
@@ -50,8 +67,13 @@
 ,
 {
   "id": "debridge",
+<<<<<<< HEAD
   "points": "401.1694",
   "tokens": "158.685171",
+=======
+  "points": "0",
+  "tokens": "0",
+>>>>>>> 4ef94adbf47a0eda286ddf050c8dc6dc16f92200
   "isClaimed": "null"
 }
 ,
@@ -85,8 +107,13 @@
 ,
 {
   "id": "zircuitS1S2",
+<<<<<<< HEAD
   "points": "-1",
   "tokens": "0",
+=======
+  "points": "0.06617826592115017",
+  "tokens": "3140.2249235949535",
+>>>>>>> 4ef94adbf47a0eda286ddf050c8dc6dc16f92200
   "isClaimed": "null"
 }
 ,
