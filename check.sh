@@ -61,17 +61,10 @@ print_airdrop_summary() {
             tokens=$(echo "$project" | jq -r '.tokens // "-"')
             isClaimed=$(echo "$project" | jq -r '.isClaimed // "null"')
 
-<<<<<<< HEAD
             echo -e "\e[1m  Project:\e[0m \e[1;32m$project_id\e[0m"
             echo -e "\e[1m    Points:$points\e[0m"
             echo -e "\e[1m    Token Amount:\e[0m \e[1;35m$tokens\e[0m"
             echo -e "\e[1m    Claimed:$isClaimed\e[0m"
-=======
-            echo "  Project: $project_id"
-            echo "    Points: $points"
-            echo "    Token Amount: $tokens"
-            echo "    Claimed: $isClaimed"
->>>>>>> 4ef94adbf47a0eda286ddf050c8dc6dc16f92200
             echo
 
             jq -n \
