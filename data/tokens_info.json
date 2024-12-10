@@ -85,14 +85,26 @@
     },
     {
         "project": "movement",
-        "symbol": "",
-        "CA": "",
+        "symbol": "move",
+        "CA": "0x3073f7aAA4DB83f95e9FFf17424F71D4751a3073",
         "chain_id": 1
     },
     {
         "project": "layerzero",
         "symbol": "zro",
         "CA": "0x6985884C4392D348587B19cb9eAAf157F13271cd",
+        "chain_id": 1
+    },
+    {
+        "project": "cellula",
+        "symbol": "cela",
+        "CA": "0xc790Ac3B67C42302555D928E5644B848C557E319",
+        "chain_id": 56
+    },
+    {
+        "project": "ora",
+        "symbol": "ora",
+        "CA": "0x33333333FEde34409Fb7f67c6585047E1F653333",
         "chain_id": 1
     }
 ]
